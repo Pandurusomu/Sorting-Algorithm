@@ -20,7 +20,25 @@ To write a program to perform selection sort and insertion sort using python pro
 ## Program:
 i)	#Selection Sort
 ```
-
+''' 
+Program to sort the elements in the list using the Selection Sort algorithm.
+Developed by: Panduru somu
+RegisterNumber: 212223240111
+'''
+def selection_sort(nums):
+    for i in range(len(nums)):
+        lowest_value_index = i
+        for j in range(i,len(nums)):
+            if nums[j]<nums[lowest_value_index]:
+                lowest_value_index = j
+        nums[i],nums[lowest_value_index]=nums[lowest_value_index],nums[i]
+    
+    
+    
+    
+list_of_nums = eval(input())
+selection_sort(list_of_nums)
+print(list_of_nums)
 
 
 
@@ -28,7 +46,26 @@ i)	#Selection Sort
 ```
 ii)	#Insertion Sort
 ```
-
+''' 
+Program to sort the elements in the list using the Selection Sort algorithm.
+Developed by: Panduru somu
+RegisterNumber: 212223240111
+'''
+def insertion_sort(nums):
+    for i in range(1,len(nums)):
+        item = nums[i]
+        j = i-1
+        while j>=0 and nums[j]>item:
+            nums[j+1]=nums[j]
+            j-=1
+        nums[j+1] = item
+    
+    
+    
+    
+list_of_nums = eval(input())
+insertion_sort(list_of_nums)
+print(list_of_nums)
 
 
 
@@ -37,6 +74,8 @@ ii)	#Insertion Sort
 ```
 
 ## Output:
+![Screenshot 2023-12-30 181430](https://github.com/Pandurusomu/Sorting-Algorithm/assets/148988619/7178a04c-2117-496e-9c71-02b40a9561f9)
+![Screenshot 2023-12-30 181442](https://github.com/Pandurusomu/Sorting-Algorithm/assets/148988619/d5756dcd-fbd5-45cd-bfcc-df1a8fabd9b2)
 
 
 ## Result:

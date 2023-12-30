@@ -74,7 +74,9 @@ print(list_of_nums)
 ```
 
 ## Output:
+#Selection Sort
 ![Screenshot 2023-12-30 181430](https://github.com/Pandurusomu/Sorting-Algorithm/assets/148988619/7178a04c-2117-496e-9c71-02b40a9561f9)
+#Insertion Sort
 ![Screenshot 2023-12-30 181442](https://github.com/Pandurusomu/Sorting-Algorithm/assets/148988619/d5756dcd-fbd5-45cd-bfcc-df1a8fabd9b2)
 
 
